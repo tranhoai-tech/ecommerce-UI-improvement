@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#edf1e6"/>
+<circle cx="300" cy="290" r="205" fill="#dce7d3"/>
+<ellipse cx="305" cy="490" rx="135" ry="22" fill="#b9c9b0" opacity=".6"/>
+<rect x="240" y="130" width="120" height="55" rx="8" fill="#38503b"/>
+<rect x="220" y="175" width="160" height="300" rx="26" fill="#b7c9a8" stroke="#81987a" stroke-width="3"/>
+<rect x="235" y="265" width="130" height="120" rx="4" fill="#f5f3e8"/>
+<text x="300" y="302" font-family="Georgia,serif" font-size="22" text-anchor="middle" fill="#315b40" letter-spacing="3">COCOON</text>
+<text x="300" y="330" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#315b40">BÍ ĐAO</text>
+<text x="300" y="354" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="#536b52">MICELLAR WATER</text>
+<path d="M140 410 C110 350 145 300 200 300 C198 355 175 390 140 410Z" fill="#8aa47c"/>
+<path d="M435 230 C480 190 515 220 505 260 C480 282 450 263 435 230Z" fill="#9db78d"/>
+</svg>

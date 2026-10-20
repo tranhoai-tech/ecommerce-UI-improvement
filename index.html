@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Giao diện cửa hàng mỹ phẩm minh họa bằng HTML5 và CSS3.">
+  <title>Cocoon – Cửa hàng mỹ phẩm</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#" aria-label="Cocoon - Trang chủ">
+        <span class="brand-name">COCOON</span>
+        <span class="brand-caption">VIỆT NAM · GIAO DIỆN MINH HỌA</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="#products">Sản phẩm</a>
+        <a href="#about">Về chúng tôi</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="search-link" href="#products" aria-label="Tìm sản phẩm">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10.8" cy="10.8" r="6.5"></circle>
+            <path d="m16 16 4.2 4.2"></path>
+          </svg>
+          <span class="visually-hidden">Tìm kiếm</span>
+        </a>
+        <a class="cart-link" href="#cart" aria-label="Giỏ hàng, 0 sản phẩm">
+          <span class="cart-icon-wrap">
+            <svg class="cart-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H6"></path>
+              <circle cx="9.5" cy="19.2" r="1.2"></circle>
+              <circle cx="17.2" cy="19.2" r="1.2"></circle>
+            </svg>
+            <span class="cart-count">0</span>
+          </span>
+          <span class="cart-label">Giỏ hàng</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">CHĂM SÓC TỪ THIÊN NHIÊN</p>
+        <h1 id="hero-title">Chăm sóc làn da<br>theo cách dịu lành.</h1>
+        <p class="hero-description">Khám phá những sản phẩm chăm sóc cá nhân trong giao diện cửa hàng mẫu.</p>
+        <a class="primary-button" href="#products">Khám phá sản phẩm</a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-circle"></div>
+        <div class="hero-leaf leaf-one"></div>
+        <div class="hero-leaf leaf-two"></div>
+        <div class="hero-bottle">
+          <span class="bottle-cap"></span>
+          <span class="bottle-label">COCOON<br><small>BOTANICAL</small></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="products-section" id="products" aria-labelledby="products-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">LỰA CHỌN CỦA BẠN</p>
+          <h2 id="products-title">Sản phẩm nổi bật</h2>
+        </div>
+        <p class="section-note">Sản phẩm và giá dưới đây chỉ dùng minh họa giao diện.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <a class="product-image image-cucumber" href="#product-1" aria-label="Xem Nước tẩy trang bí đao">
+            <img src="images/product-cucumber.svg" alt="Minh họa chai nước tẩy trang bí đao" width="600" height="600">
+            <span class="product-tag">BÁN CHẠY</span>
+          </a>
+          <div class="product-info">
+            <p class="product-category">LÀM SẠCH DA</p>
+            <h3><a href="#product-1">Nước tẩy trang bí đao</a></h3>
+            <p class="product-size">Dung tích minh họa: 500 ml</p>
+            <div class="product-bottom">
+              <p class="product-price">195.000₫</p>
+              <button class="add-button" type="button" aria-label="Thêm Nước tẩy trang bí đao vào giỏ hàng">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a class="product-image image-coffee" href="#product-2" aria-label="Xem Tẩy tế bào chết cà phê">
+            <img src="images/product-coffee.svg" alt="Minh họa hũ tẩy tế bào chết cà phê" width="600" height="600">
+          </a>
+          <div class="product-info">
+            <p class="product-category">CHĂM SÓC CƠ THỂ</p>
+            <h3><a href="#product-2">Tẩy tế bào chết cà phê</a></h3>
+            <p class="product-size">Khối lượng minh họa: 200 ml</p>
+            <div class="product-bottom">
+              <p class="product-price"> 145.000₫</p>
+              <button class="add-button" type="button" aria-label="Thêm Tẩy tế bào chết cà phê vào giỏ hàng">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a class="product-image image-lip" href="#product-3" aria-label="Xem Son dưỡng môi dầu dừa">
+            <img src="images/product-lip.svg" alt="Minh họa son dưỡng môi dầu dừa" width="600" height="600">
+            <span class="product-tag">DƯỠNG ẨM</span>
+          </a>
+          <div class="product-info">
+            <p class="product-category">DƯỠNG MÔI</p>
+            <h3><a href="#product-3">Son dưỡng môi dầu dừa</a></h3>
+            <p class="product-size">Khối lượng minh họa: 5 g</p>
+            <div class="product-bottom">
+              <p class="product-price">69.000₫</p>
+              <button class="add-button" type="button" aria-label="Thêm Son dưỡng môi dầu dừa vào giỏ hàng">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a class="product-image image-hair" href="#product-4" aria-label="Xem Dầu gội bưởi">
+            <img src="images/product-hair.svg" alt="Minh họa chai dầu gội bưởi" width="600" height="600">
+          </a>
+          <div class="product-info">
+            <p class="product-category">CHĂM SÓC TÓC</p>
+            <h3><a href="#product-4">Dầu gội bưởi</a></h3>
+            <p class="product-size">Dung tích minh họa: 310 ml</p>
+            <div class="product-bottom">
+              <p class="product-price">175.000₫</p>
+              <button class="add-button" type="button" aria-label="Thêm Dầu gội bưởi vào giỏ hàng">+</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-strip" id="about">
+      <div class="about-mark" aria-hidden="true">✳</div>
+      <div>
+        <h2>Chăm sóc cá nhân, gần gũi với thiên nhiên</h2>
+        <p>Đây là trang mẫu phục vụ bài tập HTML5 và CSS3, không phải website thương mại chính thức.</p>
+      </div>
+    </section>
+
+    <section class="cart-demo" id="cart" aria-labelledby="cart-title">
+      <div>
+        <p class="eyebrow">KHU VỰC ĐƯỢC CẢI TIẾN</p>
+        <h2 id="cart-title">Giỏ hàng dễ nhận biết hơn</h2>
+        <p>Biểu tượng xe đẩy, nhãn chữ và số lượng giúp người dùng nhận ra chức năng giỏ hàng.</p>
+      </div>
+      <a class="cart-link cart-link-demo" href="#products" aria-label="Giỏ hàng minh họa, 0 sản phẩm">
+        <span class="cart-icon-wrap">
+          <svg class="cart-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H6"></path>
+            <circle cx="9.5" cy="19.2" r="1.2"></circle>
+            <circle cx="17.2" cy="19.2" r="1.2"></circle>
+          </svg>
+          <span class="cart-count">0</span>
+        </span>
+        <span class="cart-label">Giỏ hàng</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© Giao diện minh họa cho bài tập HTML5 &amp; CSS3.</p>
+    <p>Không liên kết với hệ thống đặt hàng hoặc thanh toán thực tế.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#e9eee3"/>
+<circle cx="300" cy="290" r="205" fill="#d9e4d1"/>
+<ellipse cx="300" cy="490" rx="120" ry="20" fill="#b7c6ae" opacity=".65"/>
+<rect x="258" y="115" width="84" height="62" rx="8" fill="#4b6248"/>
+<rect x="240" y="160" width="120" height="320" rx="24" fill="#9db48d" stroke="#71896a" stroke-width="3"/>
+<rect x="253" y="260" width="94" height="125" rx="4" fill="#f5f1e5"/>
+<text x="300" y="295" font-family="Georgia,serif" font-size="15" text-anchor="middle" fill="#315b40" letter-spacing="1">COCOON</text>
+<text x="300" y="325" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#315b40">BƯỞI</text>
+<text x="300" y="348" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="#315b40">SHAMPOO</text>
+<path d="M145 405 C100 340 140 290 195 305 C190 350 175 385 145 405Z" fill="#7f9c72"/>
+<path d="M430 220 C475 170 520 205 500 250 C475 273 448 250 430 220Z" fill="#b3c6a4"/>
+<circle cx="430" cy="390" r="24" fill="#d9b49a"/><circle cx="455" cy="405" r="20" fill="#e4c3a6"/>
+</svg>

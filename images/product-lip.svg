@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#f4e9e4"/>
+<circle cx="300" cy="290" r="205" fill="#ead7cf"/>
+<ellipse cx="300" cy="470" rx="125" ry="20" fill="#cdb4a9" opacity=".6"/>
+<rect x="250" y="155" width="100" height="280" rx="18" fill="#c7a77c" stroke="#a98a60" stroke-width="3"/>
+<rect x="244" y="125" width="112" height="55" rx="10" fill="#ead8b9" stroke="#a98a60" stroke-width="3"/>
+<rect x="263" y="245" width="74" height="130" rx="4" fill="#f7f1e6"/>
+<text x="300" y="282" font-family="Georgia,serif" font-size="13" text-anchor="middle" fill="#765d3f" letter-spacing="1">COCOON</text>
+<text x="300" y="308" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#765d3f">DẦU DỪA</text>
+<text x="300" y="330" font-family="Arial,sans-serif" font-size="9" text-anchor="middle" fill="#765d3f">LIP BALM</text>
+<path d="M125 390 C90 330 130 275 180 290 C183 335 160 370 125 390Z" fill="#9caa7d"/>
+<path d="M460 205 C500 160 535 190 515 230 C495 250 470 236 460 205Z" fill="#b8c6a2"/>
+</svg>
